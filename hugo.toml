@@ -5,3 +5,37 @@ theme = 'bootstrap-bp-hugo-theme'
 
 [params]
 description = "在这个混乱的世界中，沉心开拓自己的一片天地"
+customDateFormat = "2006-01-02 15:04:05"
+
+[params.social]
+github = "jiangjilu"
+
+[menu]
+
+    [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+    pre = "<i class='fas fa-heart'></i>"
+
+    [[menu.footer]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+    pre = "<i class='fas fa-address-card'></i>"
+
+    [[menu.footer]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 20
+    pre = "<i class='fas fa-folder'></i>"
+
+    [[menu.footer]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
+    pre = "<i class='fas fa-tags'></i>"
