@@ -1,4 +1,7 @@
-baseURL = 'https://jiangjilu.github.io/'
+baseURL = 'https://blog.auto-updating.com/'
 languageCode = 'zh-cn'
 title = '吉尼诗记录'
 theme = 'bootstrap-bp-hugo-theme'
+
+[params]
+description = "在这个混乱的世界中，沉心开拓自己的一片天地"
