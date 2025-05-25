@@ -3,6 +3,10 @@ languageCode = 'zh-cn'
 title = '吉尼诗记录'
 theme = 'PaperMod'
 
+enableRobotsTXT = true
+[outputs]
+home = ["HTML", "RSS", "RobotsTXT"]
+
 [pagination]
 pagerSize = 5
 
