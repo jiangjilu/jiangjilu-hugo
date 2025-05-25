@@ -3,6 +3,9 @@ languageCode = 'zh-cn'
 title = '吉尼诗记录'
 theme = 'PaperMod'
 
+[pagination]
+pagerSize = 5
+
 [params]
 description = "在这个混乱的世界中，沉心开拓自己的一片天地"
 customDateFormat = "2006-01-02 15:04:05"
@@ -14,7 +17,7 @@ github = "jiangjilu"
 
     [[menu.main]]
     identifier = "about"
-    name = "About"
+    name = "关于"
     url = "/about/"
     weight = 10
     pre = "<i class='fas fa-heart'></i>"
