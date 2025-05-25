@@ -90,9 +90,6 @@ hugo
 
 ```toml
 enableRobotsTXT = true
-
-[outputs]
-  home = ["HTML", "RSS", "RobotsTXT"]
 ```
 
 正式部署时，`robots.txt` 会自动生成：
