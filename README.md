@@ -79,7 +79,7 @@ hugo
 
 * GitHub Pages
 * Netlify
-* Cloudflare Pages
+* Cloudflare Pages ( 经实测 默认是使用 hugo 0.118.2, 可以在环境变量中指定版本为 `HUGO_VERSION=0.147.5` )
 * 自建服务器 + Nginx
 
 ---
@@ -96,8 +96,7 @@ enableRobotsTXT = true
 
 ```txt
 User-agent: *
-Allow: /
-
+Disallow:
 Sitemap: https://yourdomain.com/sitemap.xml
 ```
 
@@ -133,10 +132,3 @@ static/                  # 静态资源
 ## 📜 许可协议
 
 MIT License
-
-```
-
----
-
-如你希望这个 `README.md` 包含**部署到 GitHub Pages 的 CI 脚本（GitHub Actions）**或支持 **中文 SEO 配置说明**，我可以继续帮你扩展内容。是否需要？
-```
