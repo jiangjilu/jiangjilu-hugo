@@ -26,7 +26,7 @@ git submodule update --init --recursive
 ### 3. 启动本地预览服务
 
 ```bash
-hugo server -D
+hugo server -D --disableFastRender
 ```
 
 * `-D` 表示显示草稿文章（draft）
